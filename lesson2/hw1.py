@@ -15,6 +15,12 @@
 # 	print('Key is: {} - Value is: {}'.format(key, value))
 
 # third task
-tuple = (1.4, 2.32, 10.1, 23.3, 50.4)
-print('Максимальное значение = ', max(tuple))
-print('Максимальное значение = ', min(tuple))
+# tuple = (1.4, 2.32, 10.1, 23.3, 50.4)
+# print('Максимальное значение = ', max(tuple))
+# print('Максимальное значение = ', min(tuple))
+
+fourth = ['Earth', 'Moscow', 'Python']
+string_from_list = '-'.join(fourth)
+print(type(string_from_list))
+print('Это на наш массив \n', fourth)
+print('Это строка из него: ', string_from_list)
